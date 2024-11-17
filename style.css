@@ -1,0 +1,65 @@
+/* Card Styles */
+.recipe-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.favorite {
+    background-color: #ffe6e6 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/api/placeholder/1200/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+/* Image Styles */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Recipe Content Styles */
+.recipe-stats {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.ingredients-list {
+    font-size: 0.9rem;
+    padding-left: 1.2rem;
+}
+
+/* Difficulty Badges */
+.difficulty-easy { 
+    background-color: #28a745; 
+}
+
+.difficulty-medium { 
+    background-color: #ffc107; 
+}
+
+.difficulty-hard { 
+    background-color: #dc3545; 
+}
+
+/* Toast Notification */
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+}
